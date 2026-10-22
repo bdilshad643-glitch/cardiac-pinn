@@ -1,0 +1,35 @@
+{
+  "true_D": 2.0,
+  "estimated_D": 1.8935,
+  "D_error_percent": 5.33,
+  "u_relative_L2_error_percent": 0.64,
+  "v_relative_L2_error_percent": 0.41,
+  "activation_time_MAE": 0.039,
+  "activation_time_max_error": 0.19,
+  "activated_points_matched": "151/151",
+  "n_electrodes": 6,
+  "electrode_positions": [
+    2.4,
+    7.4,
+    12.4,
+    17.4,
+    22.4,
+    27.4
+  ],
+  "observed_fraction_of_grid_percent": 3.97,
+  "noise_std": 0.01,
+  "adam_iterations": 20000,
+  "lbfgs_iterations": 1200,
+  "train_seconds": 507.8,
+  "seed": 0,
+  "fhn_params": {
+    "D": 2.0,
+    "a": 0.1,
+    "eps": 0.01,
+    "gamma": 0.5,
+    "L": 30.0,
+    "T": 50.0,
+    "stim_width": 4.0,
+    "stim_edge": 0.5
+  }
+}
